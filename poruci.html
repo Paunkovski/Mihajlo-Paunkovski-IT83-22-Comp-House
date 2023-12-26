@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Computer House</title>
+    <style>
+        .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: silver;
+  }
+  
+  .navbar .navbar-logo img{
+    width: 220px;
+    height: 47px;
+    padding-top: 3px;
+  }
+  
+  .nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 19px;
+  }
+  .nav-menu .nav-item a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+  }
+  .nav-menu .nav-item a:hover{
+    color: white;
+ }
+ .nav-menu .nav-item .poruci{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+  }
+  .nav-menu .nav-item .poruci:hover{
+    background-color: silver;
+    border: 1px solid black;
+    color: black
+  }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+
+        <div class="navbar-logo">
+            <a href="index.html"><img src="img/Capture1.PNG" alt=""></a>
+        </div>
+    
+        <ul class="nav-menu">
+        
+            <li class="nav-item">
+                <a href="#"> Log In </a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="#">Kontakt</a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="lokacija.html">Lokacija</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="poruci" href="poruci.html">Poruči</a>
+            </li>
+        </ul>
+    </div>
+<div class="container">
+    <label for="ime">Ime</label>
+    <input type="text" placeholder="ime">
+
+    <label for="prezime">Prezime</label>
+    <input type="text" placeholder="prezime">
+
+    <label for="Email">Email</label>
+    <input type="text" placeholder="email">
+
+    <label for="broj">Broj Mobilnog</label>
+    <input type="text" placeholder="06">
+
+    <label for="adresa">Adresa</label>
+    <input type="text" placeholder="adresa">
+
+    <label for="proizvod">Izaberite Proizvod</label>
+    <select id="proizvod">
+      <option value="mis">LOGITECH G502 X Plus Bežični gejmerski miš</option>
+      <option value="LOGITECH">LOGITECH MK295 Silent Wireless US 920-009800 Crna</option>
+      <option value="podloga">Parsec Extra Large Podloga za mišaA</option>
+      <option value="racunar">GIGATRON PBA Nitro Spark Računar</option>
+      <option value="racuunar2">LOGITECH CORDED K280e US 920-005217</option>
+      <option value="racunar3">LOGITECH CORDED K280e US 920-005217</option>
+    </select>
+
+    <label for="komentar">Ostavite Komentar</label>
+    <textarea name="komentar"" style="height:100px"></textarea>
+
+    <input type="submit" value="Potvrdi">
+</div>
+
+</body>
+</html>

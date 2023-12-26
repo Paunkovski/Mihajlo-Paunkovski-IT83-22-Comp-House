@@ -1,0 +1,181 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: silver;
+  }
+  
+  .navbar .navbar-logo img{
+    width: 220px;
+    height: 47px;
+    padding-top: 3px;
+  }
+  
+  .nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 19px;
+  }
+  .nav-menu .nav-item a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+  }
+  .nav-menu .nav-item a:hover{
+    color: white;
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: white;
+}
+  .main-menu .pro{
+    display: inline;
+    margin: 20px;
+    font-size: 22px;
+  }
+  .main-menu .pro a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+  }
+  .main-menu .pro a:hover{
+    color: gray;
+  }
+  .nav-menu .nav-item .poruci{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+  }
+  .nav-menu .nav-item .poruci:hover{
+    background-color: silver;
+    border: 1px solid black;
+    color: black
+  }
+  input[type=text] {
+    border: 2px dotted black;
+    border-radius: 10px;
+    width: 300px;
+    height: 22px;
+}
+.srednja{
+    background-image: url(css/poz.jpg);
+    padding-bottom: 200px;
+    padding-top: 70px;
+}
+.srednja h1{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 270px;
+    margin-bottom: 10px;
+    padding-top: 60px;
+}
+.srednja p{
+    color: white;
+    margin-left: 270px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.srednja a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 270px;
+    transition: 1s;
+    font-size: 25px;
+}
+.srednja a:hover{
+    background-color: aliceblue;
+    border: 1px solid blue;
+    color: blue
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: -50px;
+    position: relative;
+    animation: typing 2s steps(22) infinite;
+    color: #123740;
+}
+
+@keyframes typing {
+  from {
+      transform: rotate(7deg);
+  }
+  to {
+      transform: rotate(-7deg);
+  }
+}
+
+.proizvodi{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proizvodi .proizvod{
+    width: 400px;
+    margin: 0px 20px;
+    height: 470px;
+    border-radius: 25px;
+    background-color: #123740;
+    transition: 0.4s;
+}
+.proizvodi img{
+    width: 100%;
+  height: 300px;
+  font-weight: bold;
+}
+.proizvodi .proizvod a{
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    transition: 0.25s;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: aqua;
+}
+.proizvodi .proizvod h1{
+    text-align: center;
+}
+.proizvodi .proizvod a:hover{  
+    color:aqua; ;
+    background-color: #123740;
+}
+.proizvodi .proizvod:hover{
+    background-color: aqua;
+    margin-top: -26px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 425px){  
+    body{
+        font-size: 14px;
+    } 
+}

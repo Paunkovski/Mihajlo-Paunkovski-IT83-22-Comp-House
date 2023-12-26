@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Lokacija</title>
+    <style>
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: silver;
+  }
+  
+  .navbar .navbar-logo img{
+    width: 220px;
+    height: 47px;
+    padding-top: 3px;
+  }
+  
+  .nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 19px;
+  }
+  .nav-menu .nav-item a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+  }
+  .nav-menu .nav-item a:hover{
+    color: white;
+  }
+  .nav-menu .nav-item .poruci{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+  }
+  .nav-menu .nav-item .poruci:hover{
+    background-color: silver;
+    border: 1px solid black;
+    color: black
+ }
+
+        h1{
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: lokacija 2s steps(13) infinite;;
+        }
+        @keyframes lokacija {
+    from { width: 60% }
+    to { width: 140% }
+  }
+        p{
+            margin-left: 250px;
+        }
+    </style>
+</head> 
+<body>
+    <div class="navbar">
+
+        <div class="navbar-logo">
+            <a href="index.html"><img src="img/Capture1.PNG" alt=""></a>
+        </div>
+    
+        <ul class="nav-menu">
+        
+            <li class="nav-item">
+                <a href="#"> Log In </a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="#">Kontakt</a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="lokacija.html">Lokacija</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="poruci" href="poruci.html">Poruči</a>
+            </li>
+        </ul>
+    </div>
+
+    <h1>Naša Lokacija</h1>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.885753080626!2d19.832654976262354!3d45.25010297107114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b104063117fab%3A0xb89164e4ab48875b!2sHigher%20Education%20Technical%20School%20of%20Professional%20Studies%20in%20Novi%20Sad!5e0!3m2!1sbs!2srs!4v1703509351764!5m2!1sbs!2srs" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+
+
+</body>

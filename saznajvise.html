@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Saznaj Vise</title>
+    <style>
+        .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: silver;
+  }
+  
+  .navbar .navbar-logo img{
+    width: 220px;
+    height: 47px;
+    padding-top: 3px;
+  }
+  
+  .nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 19px;
+  }
+  .nav-menu .nav-item a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+ }
+ .main-menu .pro a:hover{
+    color: gray;
+  }
+ .nav-menu .nav-item .poruci{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+  }
+  .nav-menu .nav-item .poruci:hover{
+    background-color: silver;
+    border: 1px solid black;
+    color: black
+ }
+ .pozadinska{
+    background-image: url(css/onama.jpg);
+    height: 285px;
+    margin-top: -35px;
+ }
+ .pozadinska p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 195px;
+    font-size: 60px;
+    font-weight: bold;
+ }
+ .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: white;
+}
+  .main-menu .pro{
+    display: inline;
+    margin: 20px;
+    font-size: 22px;
+  }
+  .main-menu .pro a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+  }
+  input[type=text] {
+    border: 2px dotted black;
+    border-radius: 10px;
+    width: 300px;
+    height: 22px;
+}
+ .a1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .a1 .a2 img{
+    margin-left: 8px;
+    margin-right: 8px;
+ }
+.a1 .a2 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+.a1 .a2 h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+
+        <div class="navbar-logo">
+            <a href="index.html"><img src="img/Capture1.PNG" alt=""></a>
+        </div>
+    
+        <ul class="nav-menu">
+        
+            <li class="nav-item">
+                <a href="#"> Log In </a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="#">Kontakt</a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="lokacija.html">Lokacija</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="poruci" href="poruci.html">Poruči</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="main">
+
+        <div class="pretraga">
+            <input type="text" placeholder="Pretraga">
+        </div>
+    
+        <ul class="main-menu">
+        
+            <li class="pro">
+                <a href="#"> Monitori </a>
+            </li>
+    
+            <li class="pro">
+                <a href="#">Tastature</a>
+            </li>
+    
+            <li class="pro">
+                <a href="#">Miševi</a>
+            </li>
+    
+            <li class="pro">
+                <a href="#">Kablovi</a>
+            </li>
+    
+            <li class="pro">
+                <a href="#"> Računari </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="pozadinska">
+        <div class="slika">
+            <p>O Nama</p>
+        </div>
+    </div>
+
+    <div class="a1">
+
+        <div class="a2">
+            <h3>Ko Smo Mi?</h3>
+            <img src="img/treca1.jpg">
+            <p><b>Computer House</b> je lanac prodavnica video igara, igračkih konzola, PC računara i prateće opreme za gejmere. Pored osnovnog programa za igrače, <b>COPM HOUSE</b> nudi širok izbor artikala vezanih za e-sports – gaming tastature, slušalice, miševe, podloge i drugu prateću opremu. Naše prodavnice se nalaze na 3 lokacije u Srbiji: Beograd - Žička 20 (Vračar), Novi Beograd - Tošin bunar 181 i u Novom Sadu, Danila Kiša 14.</p>
+        </div>
+
+        <div class="a2">
+            <h3>O Nama</h3>
+            <img src="img/treca2.jpg">
+            <p>U ponudi <b>Computer house</b> prodavnica se nalazi najveći izbor popularnih video igara, konzola za gejmere, fantastičnih gaming PC računara i prateće opreme najjačih brendova, kao što su: Sony PlayStation 5, PS4, Microsoft XBOX, Nintendo Switch... Gaming kao fokusna industrija definiše i ostatak asortimana u <b>COMP HOUSE</b> prodavnicama – prateći program sa gaming tematikom: akcione figure, Funko POP!, privesci, kape, šolje, torbe, rančevi...</p>
+        </div>
+
+        <div class="a2">
+            <h3>Servis</h3>
+            <img src="img/treca3.jpg">
+            <p>Pored distribucije igara i opreme za gejmere, dugi niz godina se profesionalno bavimo <b>servisiranjem</b> i popravkama svih aktuelnih gaming konzola i opreme. Kod nas možete popraviti Vaš Sony PlayStation ili Xbox koji neće da se uključi, da se zameni neispravan laser koji ne očitava diskove, mogu da se zamene pečurke na džojsticima i još mnogo toga.</p>
+        </div>
+
+    </div>
+
+
+
+</body>
